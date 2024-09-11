@@ -1,0 +1,11 @@
+﻿@model CiphePdfReader.Models.PdfData
+
+@{
+    ViewBag.Title = "Display PDF Data";
+}
+
+<h2>Display PDF Data</h2>
+
+<pre>
+    @Html.Raw(Model.Content)
+</pre>
